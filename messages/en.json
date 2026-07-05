@@ -1,0 +1,82 @@
+{
+    "metadata": {
+        "title": "Oscar Cristaudo — Full-stack developer",
+        "description": "Portfolio of Oscar Cristaudo, full-stack developer at Eos Solutions and IVS 118 Piemonte volunteer rescuer and instructor."
+    },
+    "nav": {
+        "about": "About",
+        "education": "Education",
+        "experience": "Experience",
+        "skills": "Skills",
+        "volunteering": "Volunteering",
+        "contact": "Contact"
+    },
+    "hero": {
+        "eyebrow": "Full-stack developer · Piedmont, Italy",
+        "title": "Oscar Cristaudo",
+        "description": "I build web apps and backend systems at Eos Solutions. On weekends, I train as an emergency medical volunteer in Piedmont.",
+        "ctaContact": "Get in touch",
+        "ctaGithub": "View GitHub"
+    },
+    "about": {
+        "heading": "About",
+        "body": "Eight years building software across frontend, backend, and mobile. Based in Piedmont, working full-stack at Eos Solutions — TypeScript/React on the web, C#/.NET underneath."
+    },
+    "education": {
+        "heading": "Education",
+        "school": "IIS \"G. Vallauri\", Fossano",
+        "period": "2017 – 2022",
+        "field": "Technical diploma, Computer Science & Telecommunications"
+    },
+    "experience": {
+        "heading": "Experience",
+        "role": "Full-stack developer",
+        "company": "Eos Solutions",
+        "period": "Current",
+        "description": "Eos Solutions builds So Smart, a cloud ERP for SMEs on Microsoft Dynamics 365 Business Central. I work on both the AL core product and the web portals partners and clients use."
+    },
+    "skills": {
+        "heading": "Skills",
+        "categories": {
+            "languages": {
+                "label": "Languages",
+                "items": ["TypeScript", "JavaScript", "C#", "AL", "HTML", "CSS"]
+            },
+            "frontend": {
+                "label": "Frontend",
+                "items": ["React", "Next.js", "Tailwind CSS"]
+            },
+            "backend": {
+                "label": "Backend & data",
+                "items": [
+                    ".NET",
+                    "ASP.NET Core",
+                    "Entity Framework",
+                    "SQL Server",
+                    "Business Central"
+                ]
+            },
+            "tools": { "label": "Tools", "items": ["Git"] }
+        }
+    },
+    "volunteering": {
+        "heading": "Volunteering",
+        "role": "Volunteer & Instructor",
+        "organization": "Croce Bianca Garessio · IVS 118 Piemonte",
+        "sinceVolunteer": "Volunteer since 2023",
+        "sinceInstructor": "Instructor since 2025",
+        "award": "Best Team Leader 2025",
+        "description": "I train new recruits and take part in regional rescue drills with ANPAS — the kind where a mock patient and a ticking clock decide if you got it right."
+    },
+    "contact": {
+        "heading": "Contact",
+        "description": "Best way to reach me: email or LinkedIn.",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "instagram": "Instagram"
+    },
+    "footer": {
+        "text": "Oscar Cristaudo"
+    }
+}

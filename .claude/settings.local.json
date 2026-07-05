@@ -1,14 +1,14 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(pnpm -v)",
-      "Bash(pnpm create *)",
-      "Bash(pnpm approve-builds *)",
-      "Bash(pnpm install *)",
-      "Bash(pnpm add *)",
-      "Bash(pnpm exec *)",
-      "Bash(pnpm run *)",
-      "WebSearch"
-    ]
-  }
+    "permissions": {
+        "allow": [
+            "Bash(pnpm -v)",
+            "Bash(pnpm create *)",
+            "Bash(pnpm approve-builds *)",
+            "Bash(pnpm install *)",
+            "Bash(pnpm add *)",
+            "Bash(pnpm exec *)",
+            "Bash(pnpm run *)",
+            "WebSearch"
+        ]
+    }
 }

@@ -1,0 +1,82 @@
+{
+    "metadata": {
+        "title": "Oscar Cristaudo — Sviluppatore full-stack",
+        "description": "Portfolio di Oscar Cristaudo, sviluppatore full-stack in Eos Solutions e volontario/istruttore IVS 118 Piemonte."
+    },
+    "nav": {
+        "about": "Chi sono",
+        "education": "Formazione",
+        "experience": "Esperienza",
+        "skills": "Competenze",
+        "volunteering": "Volontariato",
+        "contact": "Contatti"
+    },
+    "hero": {
+        "eyebrow": "Sviluppatore full-stack · Piemonte, Italia",
+        "title": "Oscar Cristaudo",
+        "description": "Sviluppo applicazioni web e sistemi backend in Eos Solutions. Nei weekend mi alleno come soccorritore volontario in Piemonte.",
+        "ctaContact": "Contattami",
+        "ctaGithub": "Vai su GitHub"
+    },
+    "about": {
+        "heading": "Chi sono",
+        "body": "Otto anni a costruire software tra frontend, backend e mobile. Vivo in Piemonte, sviluppatore full-stack in Eos Solutions — TypeScript/React lato web, C#/.NET sotto il cofano."
+    },
+    "education": {
+        "heading": "Formazione",
+        "school": "IIS \"G. Vallauri\", Fossano",
+        "period": "2017 – 2022",
+        "field": "Diploma tecnico, Informatica e Telecomunicazioni"
+    },
+    "experience": {
+        "heading": "Esperienza",
+        "role": "Sviluppatore full-stack",
+        "company": "Eos Solutions",
+        "period": "Attuale",
+        "description": "Eos Solutions sviluppa So Smart, un ERP cloud per PMI basato su Microsoft Dynamics 365 Business Central. Lavoro sia sul core AL del prodotto sia sui portali web che partner e clienti usano davvero."
+    },
+    "skills": {
+        "heading": "Competenze",
+        "categories": {
+            "languages": {
+                "label": "Linguaggi",
+                "items": ["TypeScript", "JavaScript", "C#", "AL", "HTML", "CSS"]
+            },
+            "frontend": {
+                "label": "Frontend",
+                "items": ["React", "Next.js", "Tailwind CSS"]
+            },
+            "backend": {
+                "label": "Backend e dati",
+                "items": [
+                    ".NET",
+                    "ASP.NET Core",
+                    "Entity Framework",
+                    "SQL Server",
+                    "Business Central"
+                ]
+            },
+            "tools": { "label": "Strumenti", "items": ["Git"] }
+        }
+    },
+    "volunteering": {
+        "heading": "Volontariato",
+        "role": "Volontario e Istruttore",
+        "organization": "Croce Bianca Garessio · IVS 118 Piemonte",
+        "sinceVolunteer": "Volontario dal 2023",
+        "sinceInstructor": "Istruttore dal 2025",
+        "award": "Miglior Team Leader 2025",
+        "description": "Formo le nuove reclute e partecipo alle esercitazioni regionali con ANPAS: quelle dove un finto paziente e il cronometro decidono se hai fatto bene."
+    },
+    "contact": {
+        "heading": "Contatti",
+        "description": "Il modo migliore per contattarmi: email o LinkedIn.",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "instagram": "Instagram"
+    },
+    "footer": {
+        "text": "Oscar Cristaudo"
+    }
+}
