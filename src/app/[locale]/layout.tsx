@@ -1,27 +1,10 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import { routing } from "@/i18n/routing";
-import "../globals.css";
-
-const THEME_INIT_SCRIPT = `
-(function () {
-  try {
-    var stored = localStorage.getItem("theme");
-    if (stored === "dark" || stored === "light") {
-      document.documentElement.setAttribute("data-theme", stored);
-    }
-  } catch (e) {}
-})();
-`;
-
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
+import { Nav } from "@/components/Nav";
+import { Footer } from "@/components/Footer";
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));
@@ -57,19 +40,12 @@ export default async function LocaleLayout({
     setRequestLocale(locale);
 
     return (
-        <html
-            lang={locale}
-            suppressHydrationWarning
-            className={`${geistSans.variable} h-full antialiased`}
-        >
-            <body className="bg-paper text-ink flex min-h-full flex-col">
-                <Script
-                    id="theme-init"
-                    strategy="beforeInteractive"
-                    dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }}
-                />
-                <NextIntlClientProvider>{children}</NextIntlClientProvider>
-            </body>
-        </html>
+        <>
+            <Nav />
+            <div className="lg:pl-72">
+                {children}
+                <Footer />
+            </div>
+        </>
     );
 }

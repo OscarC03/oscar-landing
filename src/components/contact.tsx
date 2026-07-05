@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon, InstagramIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon, InstagramIcon } from "@/components/Icons";
 import { siteConfig } from "@/lib/site-config";
 
 export function Contact() {

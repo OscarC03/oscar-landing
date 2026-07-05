@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Mail } from "lucide-react";
-import { GithubIcon } from "@/components/icons";
+import { GithubIcon } from "@/components/Icons";
 import { siteConfig } from "@/lib/site-config";
 
 export function Hero() {
@@ -9,7 +9,7 @@ export function Hero() {
     return (
         <section
             id="top"
-            className="scroll-mt-24 pt-16 pb-20 md:pt-24 md:pb-28 lg:pt-28"
+            className="scroll-mt-24 pt-10 pb-16 md:pt-24 md:pb-28 lg:pt-28"
         >
             <p className="text-accent text-sm font-medium tracking-widest uppercase">
                 {t("eyebrow")}
