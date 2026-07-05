@@ -14,7 +14,7 @@ export function Hero() {
             <p className="text-accent text-sm font-medium tracking-widest uppercase">
                 {t("eyebrow")}
             </p>
-            <h1 className="mt-5 max-w-3xl text-6xl leading-[0.95] font-semibold tracking-tighter md:text-7xl lg:text-8xl">
+            <h1 className="mt-5 max-w-3xl text-5xl leading-[0.95] font-semibold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl">
                 {t("title")}
             </h1>
             <p className="text-muted mt-8 max-w-xl text-base leading-relaxed md:text-lg">

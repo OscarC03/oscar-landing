@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { GithubIcon, LinkedinIcon, InstagramIcon } from "@/components/icons";
-import { AvatarPlaceholder } from "@/components/avatar-placeholder";
+import { Avatar } from "@/components/avatar";
 import { siteConfig } from "@/lib/site-config";
 import { useActiveSection } from "@/lib/use-active-section";
 
@@ -35,27 +35,10 @@ export function Nav() {
                 <LocaleSwitcher />
             </div>
 
-            <header className="border-border bg-paper sticky top-0 z-10 flex items-center justify-between gap-3 border-b px-6 py-4 pr-28 lg:hidden">
-                <a href="#top" className="font-semibold tracking-tight">
-                    Oscar Cristaudo
-                </a>
-                <nav className="text-muted flex items-center gap-4 overflow-x-auto text-xs">
-                    {sections.map((section) => (
-                        <a
-                            key={section}
-                            href={`#${section}`}
-                            className="hover:text-ink whitespace-nowrap transition-colors"
-                        >
-                            {t(section)}
-                        </a>
-                    ))}
-                </nav>
-            </header>
-
             <aside className="border-border fixed inset-y-0 left-0 hidden w-72 flex-col justify-between border-r px-8 py-12 lg:flex">
                 <div>
                     <a href="#top" className="flex items-center gap-3">
-                        <AvatarPlaceholder initials="OC" size={40} />
+                        <Avatar size={40} />
                         <span className="text-lg font-semibold tracking-tight">
                             Oscar Cristaudo
                         </span>

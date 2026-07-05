@@ -43,8 +43,14 @@
                 "items": ["TypeScript", "JavaScript", "C#", "AL", "HTML", "CSS"]
             },
             "frontend": {
-                "label": "Frontend",
-                "items": ["React", "Next.js", "Tailwind CSS"]
+                "label": "Frontend e mobile",
+                "items": [
+                    "React",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "Angular",
+                    "React Native"
+                ]
             },
             "backend": {
                 "label": "Backend e dati",
@@ -52,11 +58,24 @@
                     ".NET",
                     "ASP.NET Core",
                     "Entity Framework",
+                    "Node.js",
+                    "OAuth 2.0",
                     "SQL Server",
+                    "MySQL",
+                    "MongoDB",
                     "Business Central"
                 ]
             },
-            "tools": { "label": "Strumenti", "items": ["Git"] }
+            "tools": {
+                "label": "Strumenti e cloud",
+                "items": [
+                    "Git",
+                    "Docker",
+                    "Azure",
+                    "Azure DevOps",
+                    "GitHub Actions"
+                ]
+            }
         }
     },
     "volunteering": {
@@ -78,5 +97,16 @@
     },
     "footer": {
         "text": "Oscar Cristaudo"
+    },
+    "notFound": {
+        "title": "404",
+        "heading": "Pagina non trovata",
+        "description": "Questa pagina ha sbagliato strada — come un'ambulanza senza GPS.",
+        "cta": "Torna alla home"
+    },
+    "error": {
+        "heading": "Qualcosa è andato storto",
+        "description": "Questa pagina si è rotta. A differenza di un'ambulanza, questa non arriva con la sirena.",
+        "cta": "Riprova"
     }
 }
